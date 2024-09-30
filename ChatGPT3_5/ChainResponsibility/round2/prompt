@@ -1,0 +1,6 @@
+//Code.py
+Second round of editing to make the code more complete.
+
+//unit_test.py
+เขียน Pytest เพื่อทดสอบโค้ดที่กําหนดให้โดย Statement coverage เป็น 100% / Write Pytest
+to test the given code that have 100% statement coverage

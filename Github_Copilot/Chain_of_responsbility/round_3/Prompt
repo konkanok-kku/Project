@@ -1,0 +1,19 @@
+Use the Chain of Responsibility pattern to write code in Python related to purchasing products
+with the following requirements:
+1.Code.py Implement a Chain of Responsibility design pattern where each handler in the chain processes different stages of an order. For example:
+StockHandler: Verifies if the product is available in stock. 
+PaymentHandler: Handles payment processing. 
+ShippingHandler: Manages shipping after payment. 
+If a handler cannot process the request, it should pass the request to the next handler in the chain. 
+If one of the handlers successfully processes the request, the chain should stop.
+2.Test.py Write Pytest unit tests to test every branch of the Chain of Responsibility code, ensuring 100% branch coverage. 
+The tests should verify how each handler processes the request and how the request is passed down the chain when a handler cannot process it.
+
+ใช้ Chain of Responsibility pattern เพื่อเขียนโค้ดในภาษา Python ที่เกี่ยวข้องกับการซื้อสินค้า โดยมีรายละเอียดดังนี้:
+Code.py: นำหลักการออกแบบ Chain of Responsibility มาใช้ โดยให้แต่ละตัวจัดการ (handler) ในลำดับการทำงานทำการประมวลผลในขั้นตอนต่างๆ ของการสั่งซื้อ ตัวอย่างเช่น:
+StockHandler: ตรวจสอบว่ามีสินค้าพร้อมสำหรับการสั่งซื้อหรือไม่
+PaymentHandler: จัดการการชำระเงิน
+ShippingHandler: จัดการการจัดส่งหลังจากการชำระเงิน
+หากตัวจัดการใดไม่สามารถประมวลผลคำขอได้ ควรส่งคำขอนั้นไปยังตัวจัดการถัดไปในลำดับ หากตัวจัดการใดสามารถประมวลผลคำขอได้สำเร็จ ควรหยุดการทำงานของลำดับนั้น
+Test.py: เขียนการทดสอบด้วย Pytest เพื่อทดสอบทุกสาขาของโค้ด Chain of Responsibility โดยให้ครอบคลุมทุกสาขาของ Branch 100% 
+การทดสอบต้องตรวจสอบการทำงานของตัวจัดการแต่ละตัวว่าดำเนินการคำขออย่างไร และตรวจสอบว่าคำขอนั้นถูกส่งต่อไปยังตัวจัดการถัดไปเมื่อไม่สามารถดำเนินการได้หรือไม่

@@ -1,0 +1,5 @@
+// code.py
+คำถาม : from first round make the code is more completely as second round.
+
+// test_code.py
+คำถาม : from second round code , write the unittest to test by the given code that has 100% statement coverage.
