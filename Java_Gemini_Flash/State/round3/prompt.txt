@@ -1,0 +1,18 @@
+Use the State pattern to write code in Java related to turning lights on and off.
+Requirements:
+Code.java:
+Implement a Light class that can be in different states: On and Off.
+Each state should define the behavior of the light for actions like turning on and turning off.
+Create a State interface that declares the methods for the actions (turn on, turn off).
+Implement concrete state classes (OnState, OffState) that provide specific behavior for each state.
+The Light class should manage the current state and allow state transitions based on user actions.
+
+
+
+Test.java:
+Write unit tests using JUNIT to ensure that the code has 100% branch coverage.
+The tests should verify the behavior of the light in each state and ensure that state transitions are handled correctly.
+
+ใช้ State pattern ในการเขียนโค้ดในภาษาจาวา ตามความต้องการด้านล่างนี้:
+เขียนไฟล์ Code.java เพื่อสร้างคลาสสำหรับการควบคุมการเปิดปิดไฟ โดยมีสถานะต่าง ๆ เช่น เปิด (On) และปิด (Off) แต่ละสถานะจะต้องกำหนดพฤติกรรมของไฟสำหรับการเปิด (turn_on) และปิด (turn_off)
+เขียนไฟล์ Test.java เพื่อตรวจสอบโค้ดที่เขียน โดยต้องมีการทดสอบครอบคลุม 100% ทุก branch ของโค้ด เพื่อยืนยันพฤติกรรมของไฟในแต่ละสถานะและการเปลี่ยนสถานะที่ถูกต้อง แสดงโค้ดทั้งหมด

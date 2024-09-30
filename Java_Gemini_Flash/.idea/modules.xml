@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chain_Responsibility/Chain_Responsibility.iml" filepath="$PROJECT_DIR$/Chain_Responsibility/Chain_Responsibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Gemini_Flash.iml" filepath="$PROJECT_DIR$/.idea/Java_Gemini_Flash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/State/State.iml" filepath="$PROJECT_DIR$/State/State.iml" />
+    </modules>
+  </component>
+</project>

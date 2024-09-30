@@ -1,0 +1,18 @@
+Use the Chain of Responsibility pattern to write code in Java related to package delivery with the following requirements:
+Code.java: Implement a chain of responsibility for package delivery that includes different handlers. For example:
+LocationHandler: Verifies if the package can be delivered to the specified location.
+PaymentHandler: Handles payment processing for the delivery.
+DeliveryHandler: Manages the actual delivery of the package.
+If a handler cannot process the request, it should pass the request to the next handler in the chain.
+If one of the handlers successfully processes the request, the chain should stop.
+Test.java: Write Pytest unit tests to ensure 100% branch coverage of the chain of responsibility code.
+The tests should verify how each handler processes the request and how the request is passed down the chain when a handler cannot process it.
+
+
+ใช้ Chain of Responsibility pattern เพื่อเขียนโค้ดในภาษา java ที่เกี่ยวข้องกับการขนส่งพัสดุ โดยมีข้อกำหนดดังนี้:
+Code.java: สร้าง chain of responsibility สำหรับการขนส่งพัสดุที่มี handler ที่แตกต่างกัน เช่น:
+LocationHandler: ตรวจสอบว่าพัสดุสามารถส่งไปยังสถานที่ที่กำหนดได้หรือไม่
+PaymentHandler: จัดการการชำระเงินสำหรับการส่งพัสดุ
+DeliveryHandler: จัดการการส่งพัสดุจริง หาก handler ไม่สามารถประมวลผลคำขอได้ ควรส่งคำขอไปยัง handler ถัดไปใน chain หากหนึ่งใน handler ประมวลผลคำขอสำเร็จ chain ควรหยุด
+Test.java: เขียน unit tests โดยใช้ JUnit เพื่อให้แน่ใจว่ามี 100% branch coverage ของโค้ด chain of responsibility
+การทดสอบควรตรวจสอบว่า handler แต่ละตัวประมวลผลคำขออย่างไรและคำขอถูกส่งต่อไปยัง chain เมื่อ handler ไม่สามารถประมวลผลได้ แสดงโค้ดทั้งหมด
